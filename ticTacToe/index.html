@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TIC TAC TOE</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+		integrity="sha512-AS6O5mZ4Y5f3J3JkzHkx/fuQd3u0B+t7dJ8oFy6nL1TQj+4v+8M1vLQsxQ+9jXrNvuzUwMbzaW2VW9j7X8ZJTw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body onload="playTicTacToe();">
+	<div class="container">
+		<h1>TIC TAC TOE</h1>
+		<table id="table">
+			<tr>
+				<td id="0-0"></td>
+				<td id="0-1"></td>
+				<td id="0-2"></td>
+			</tr>
+			<tr>
+				<td id="1-0"></td>
+				<td id="1-1"></td>
+				<td id="1-2"></td>
+			</tr>
+			<tr>
+				<td id="2-0"></td>
+				<td id="2-1"></td>
+				<td id="2-2"></td>
+			</tr>
+		</table>
+		
+		<div class="btns">
+		<button id="start-game">Start Game</button>
+		<!-- <button id="reset">Reset Game</button> -->
+		</div>
+	<div id="winner"></div>
+	</div>
+	<script src="app.js"></script>
+</body>
+
+</html>
